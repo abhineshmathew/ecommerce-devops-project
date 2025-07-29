@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: product-service:latest  # Later change to DockerHub image
+        image: abhineshmathew/product-service:latest
         ports:
         - containerPort: 5000
