@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: abhineshmathew/product-service:latest
+        image: abhineshmathew/product-service:v1
         ports:
         - containerPort: 5000
