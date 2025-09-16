@@ -7,7 +7,7 @@ The goal is to demonstrate end-to-end cloud-native design with **microservices**
 
 ## 📊 Architecture
 
-![Ecommerce Architecture](doc/architecture/ecommerce_architecture.png)
+![Ecommerce Architecture](docs/architecture/ecommerce_architecture.png)
 
 ---
 
