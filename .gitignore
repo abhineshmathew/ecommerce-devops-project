@@ -1,0 +1,85 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.sqlite3
+*.log
+
+# ----------------------------
+# FastAPI / Uvicorn
+# ----------------------------
+*.db
+instance/
+*.pid
+
+# ----------------------------
+# Node / Frontend (if later added)
+# ----------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# ----------------------------
+# Terraform
+# ----------------------------
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ----------------------------
+# Kubernetes
+# ----------------------------
+*.yaml~      # temp files
+*.yml~       # temp files
+k8s/.cache/
+
+# ----------------------------
+# Docker
+# ----------------------------
+*.tar
+*.bak
+*.old
+docker-compose.override.yml
+
+# ----------------------------
+# Jenkins
+# ----------------------------
+jenkins/backup/
+jenkins/plugins/
+secrets/
+
+# ----------------------------
+# IDE / Editors
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ----------------------------
+# Misc
+# ----------------------------
+*.env
+.env.*
+!.env.example
